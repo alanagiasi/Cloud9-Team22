@@ -6,7 +6,7 @@
 #In MySQL terminate each command with a semicolon ;
 #In MySQL the Date format (YYYY-MM-DD) differs to MSSQL (DD MMM YYYY)
 
-Use CCDatabase; #ccdatabase
+Use ccdatabase; #CCDatabase;
 
 -- DROP order is important wrt Foreign Keys
 DROP TABLE IF EXISTS Job_History;
