@@ -19,6 +19,9 @@ SELECT City FROM Locations WHERE Location_ID = (SELECT Location_ID from Departme
 
 -- Query to show the total salaries of all employees
 SELECT SUM(Annual_Salary) SalaryTotal FROM Employees;
+                                                                                                           
+-- Query to update employees phone number
+UPDATE Employees SET Phone_Number='345 222 100' WHERE Employee_No=135;                                                                                 
 
 
 /* Function to add a new employee
