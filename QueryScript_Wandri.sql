@@ -1,6 +1,9 @@
--- This script contains queries used by frontend(
+-- This script contains queries used by frontend
 
 Use ccdatabase; #CCDatabase;
+
+-- Query to show one employee record
+SELECT * FROM Employees WHERE Employee_No=175;
 
 -- Query for adding a new Sales Representative
 INSERT INTO Employees (Employee_No,First_Name, Last_Name, Email, Phone_Number, Hire_Date, Job_ID, Annual_Salary, Commission_Percent, Manager_ID, Department_No) VALUES (280,'Kevin', 'Myers','KMYERS', '532 555 161','1999-11-14' , 'SA_REP',1000,0.25,150,60);
