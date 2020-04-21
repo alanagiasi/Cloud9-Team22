@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "keen-precinct-273713",
+  "private_key_id": "178fe09e1d7ab3b3dba5fb1d9b33dd266b72862e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQLyir++q5lbGu\nh64pNiOM58Yfkxu1FnJEyLssPUVSprerxaj9LAvQHuBMBMZUdGoz5OWY1IKP2ZN0\n14zv+5bEfe3H4TdNhFsbk5atZdD4kZOXVYyKiE8axRTibXlbWCXabYLo4BnkANw+\nkgKj9XcXJveW77bkPu0I9Sv3q0EfuiBUcZs1X3X9HA46E/EoDmY/Dzw5nj0gAtE8\np1gjoosJHsRhfBGsDtmL8FNcI6f+t6b/v6T1OWq419tWyfG2DNcmTdCVp/WhKrJ1\nDxxIcVzmEWALzsVNIRiAxvTG1EXGBL46fWw2ZF/1Uc5h2qGH24A39BmTQD/p0Zh7\nHRFxzQpJAgMBAAECggEAO3DVqaFfcUb/S15wNFk3ar2adiXlhFBOp4DBeUmBLMPC\ncLQ6KLVh4Vj5Sx2kzeh4aBBzfwANG1Stb7v1RHJKA5OO1ZpJfFGWZdYAhle1QORz\nHi6MlAgB5J1fMMHFCB1c7aG8GFlbEx4vrjPvlrx5bjgIVldY5Nv0SH8asy4M2RD6\nFR5OL7/HLNJoD6FQ0me2G3H36IgE7yz6Dhha0fi6sLeXZgE5ac3fqL7JzSQMNto6\nt5CH9e9JJYtCwQDmN1JHfc5j0Lx19ouPIsJTeC2vkVGUSS5yFhDvFqeOxDEPfIBx\n49HMIRQW3H17Ph5hLZNxi47Q1j/x5PYQtEFU/zn/KQKBgQDEOb9Y63dTJZQk9i/3\nQBvS3b+VMKjm6ipzA+CNldy8qlY64puTm1O7nich01IoGS3AqsB6dsudXbGAu9Vt\n8cn5nPCuLIi5RDGyEEUiHhhEJxMp26He43AESVWsgWOVrPMUmyZHhdPWDGZbiLrM\nqwKgPV2JMpuN9azWyXnQ7UWHUwKBgQC8GxJX/H65wbQ/IPiSJ9fQH7ksjeVFnhKl\nyXo0SyXIhRRMpmHo5cb8InHTya/P4KBXTAChMb57gHCxeJn6ORqu15eGIrMxfr8m\nMlRP/JdLRu6LIqNPA4oulJPHA3AVo0/y2A/LuoLu1XRZLJqnvgwHuidSYYH1Mydf\n+6Nt/kHAcwKBgGKdQvTFIWq/7/vDXce8iD8pAidQFRI3jK3QvQFq10xZroxZZiaA\nYUxg5vmw4hEU1lGFfsYM/bdQZuxzeYePhBnWLX7bErtI8lCyrIvA5CEcIh1fK7KA\nSsNct5nCTPHjwSYR8uLu9s8T3D0UMgy5xNATBvb0YAiv9vTavEWreM3RAoGAbrdI\nbr1RIaifnOCdLfmBjyB873p9TiKiOy6BXTI2BPY/YnYz/s7v9guYD94QOzytY3R6\nkmYjBbItomenyZ2+1NZUe0EFU8aUX7kT4xh7PHV9hitXD/S3an9NE8A0QqgjMH53\nnaQj2MuOdcZJKR41Gn85EcYOpfH75QTJxr32mX0CgYA/tYtVrDBS6ykhDC8YdYBB\n6C3CJ+i148GylMdATxWrLOsV9528WajV+FfZurWRKtm6Y67CDtp5hDOpcakt8xG2\niuVTTYZlLJ+LM8s1sS3DlOUf66URnlTVwqm4+5EjPpZCyUx2ty26eQDPXwKKMCcD\nltZCJUF1a8ms6wEFMK+n7g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "carles-app@keen-precinct-273713.iam.gserviceaccount.com",
+  "client_id": "117390117655117504838",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/carles-app%40keen-precinct-273713.iam.gserviceaccount.com"
+}
