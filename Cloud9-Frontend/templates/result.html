@@ -1,0 +1,21 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="center-on-page">
+<h1>Employee Number {{Employee_No}}</h1>
+<h2>{{First_Name}} {{Last_Name}}</h2>
+<h3>Email: {{Email}}</h3>
+<h3>Phone Number: {{Phone_Number}}</h3>
+
+<h2>Delete Employee</h2>
+<form class="form-inline" method="POST" action="{{ url_for('delete') }}">
+   <div class="select">
+    <select name="delete_select" class="selectpicker form-control">
+     <option value="{{ Employee_No }}">{{ Employee_No }}</option>
+    </select>
+   </div>
+    <button type="submit" class="btn">Delete Employee</button>
+</form>
+
+<form method="get" action="/">
+    <button type="submit">Back</button>
+</form>
