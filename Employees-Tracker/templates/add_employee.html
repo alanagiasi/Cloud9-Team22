@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+
+        {% include "nav.html" %}
+
+    </header>
+    <main>
+        <h1>Add Employee</h1>
+
+        <form method="POST">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Enter First Name">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="Enter Surname">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" name="phone_number" id="phone_number" placeholder="Enter Phone name">
+            <label for="hire_date">Hire Date</label>
+            <input type="date" name="hire_date" id="hire_date" placeholder="Enter Hire Date">
+            <label for="job_id">Job Id</label>
+            <select name="job_id" id="job_id">
+                <option value="AC_ACCOUNT">AC_ACCOUNT</option>
+                <option value="AC_CLERK">AC_CLERK</option>
+                <option value="AC_MGR">AC_MGR</option>
+                <option value="AD_ASST">AD_ASST</option>
+                <option value="AD_CLERK">AD_CLERK</option>
+                <option value="AD_MGR">AD_MGR</option>
+                <option value="CO_CHAIR">CO_CHAIR</option>
+                <option value="CO_DIR">CO_DIR</option>
+                <option value="FN_CLERK">FN_CLERK</option>
+                <option value="FN_MGR">FN_MGR</option>
+                <option value="HR_CLERK">HR_CLERK</option>
+                <option value="HR_MGR">HR_MGR</option>
+                <option value="IT_MGR">IT_MGR</option>
+                <option value="IT_PROG">IT_PROG</option>
+                <option value="MK_MGR">MK_MGR</option>
+                <option value="MK_REP">MK_REP</option>
+                <option value="PC_CLERK">PC_CLERK</option>
+                <option value="PC_MGR">PC_MGR</option>
+                <option value="SA_MGR">SA_MGR</option>
+                <option value="SA_REP">SA_REP</option>
+                <option value="SH_CLERK">SH_CLERK</option>
+                <option value="SH_MGR">SH_MGR</option>
+                <option value="ST_CLERK">ST_CLERK</option>
+                <option value="ST_MGR">ST_MGR</option>
+            </select>
+            <label for="salary">Salary</label>
+            <input type="number" name="salary" id="salary" placeholder="Enter salary">
+            <label for="commission">Commission</label>
+            <input type="number" step="0.01" name="commission" id="commission" placeholder="Enter Commission">
+            <label for="manager_id">Manager Id</label>
+            <input type="number" name="manager_id" id="manager_id" placeholder="Enter Manager_Id">
+            <label for="department_no">Department Number</label>
+            <input type="number" name="department_no" id="department_no" placeholder="Enter department_NO">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

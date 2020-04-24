@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+
+        {% include "nav.html" %}
+
+    </header>
+    <main>
+        <h1>Edit Employee</h1>
+
+        <form method="POST">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" value="{{first_name}}" placeholder="Enter First Name">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" value="{{surname}}" placeholder="Enter Surname">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" value="{{email}}" placeholder="Enter Email">
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" name="phone_number" id="phone_number" value="{{phone_number}}"
+                placeholder="Enter Phone name">
+            <label for="hire_date">Hire Date</label>
+            <input type="date" name="hire_date" id="hire_date" value="{{hire_date}}" placeholder="Enter Hire Date">
+            <label for="job_id">Job Id</label>
+            <select name="job_id" id="job_id">
+                <option value="AC_ACCOUNT" {% if job_id =="AC_ACCOUNT" %} selected="selected" {% endif %}>AC_ACCOUNT
+                </option>
+                <option value="AC_CLERK" {% if job_id =="AC_CLERK" %} selected="selected" {% endif %}>AC_CLERK</option>
+                <option value="AC_MGR" {% if job_id =="AC_MGR" %} selected="selected" {% endif %}>AC_MGR</option>
+                <option value="AD_ASST" {% if job_id =="AD_ASST" %} selected="selected" {% endif %}>AD_ASST</option>
+                <option value="AD_CLERK" {% if job_id =="AD_CLERK" %} selected="selected" {% endif %}>AD_CLERK</option>
+                <option value="AD_MGR" {% if job_id =="AD_MGR" %} selected="selected" {% endif %}>AD_MGR</option>
+                <option value="CO_CHAIR" {% if job_id =="CO_CHAIR" %} selected="selected" {% endif %}>CO_CHAIR</option>
+                <option value="CO_DIR" {% if job_id =="CO_DIR" %} selected="selected" {% endif %}>CO_DIR</option>
+                <option value="FN_CLERK" {% if job_id =="FN_CLERK" %} selected="selected" {% endif %}>FN_CLERK</option>
+                <option value="FN_MGR" {% if job_id =="FN_MGR" %} selected="selected" {% endif %}>FN_MGR</option>
+                <option value="HR_CLERK" {% if job_id =="HR_CLERK" %} selected="selected" {% endif %}>HR_CLERK</option>
+                <option value="HR_MGR" {% if job_id =="HR_MGR" %} selected="selected" {% endif %}>HR_MGR</option>
+                <option value="IT_MGR" {% if job_id =="IT_MGR" %} selected="selected" {% endif %}>IT_MGR</option>
+                <option value="IT_PROG" {% if job_id =="IT_PROG" %} selected="selected" {% endif %}>IT_PROG</option>
+                <option value="MK_MGR" {% if job_id =="MK_MGR" %} selected="selected" {% endif %}>MK_MGR</option>
+                <option value="MK_REP" {% if job_id =="MK_REP" %} selected="selected" {% endif %}>MK_REP</option>
+                <option value="PC_CLERK" {% if job_id =="PC_CLERK" %} selected="selected" {% endif %}>PC_CLERK</option>
+                <option value="PC_MGR" {% if job_id =="PC_MGR" %} selected="selected" {% endif %}>PC_MGR</option>
+                <option value="SA_MGR" {% if job_id =="SA_MGR" %} selected="selected" {% endif %}>SA_MGR</option>
+                <option value="SA_REP" {% if job_id =="SA_REP" %} selected="selected" {% endif %}>SA_REP</option>
+                <option value="SH_CLERK" {% if job_id =="SH_CLERK" %} selected="selected" {% endif %}>SH_CLERK</option>
+                <option value="SH_MGR" {% if job_id =="SH_MGR" %} selected="selected" {% endif %}>SH_MGR</option>
+                <option value="ST_CLERK" {% if job_id =="ST_CLERK" %} selected="selected" {% endif %}>ST_CLERK</option>
+                <option value="ST_MGR" {% if job_id =="ST_MGR" %} selected="selected" {% endif %}>ST_MGR</option>
+            </select>
+            <label for="salary">Salary</label>
+            <input type="number" name="salary" id="salary" value="{{salary}}" placeholder="Enter salary">
+            <label for="commission">Commission</label>
+            <input type="number" step="0.01" name="commission" id="commission" value="{{commission or 0.0}}"
+                placeholder="Enter Commission">
+            <label for="manager_id">Manager Id</label>
+            <input type="number" name="manager_id" id="manager_id" value="{{manager_id}}"
+                placeholder="Enter Manager_Id">
+            <label for="department_no">Department Number</label>
+            <input type="number" name="department_no" id="department_no" value="{{department_no}}"
+                placeholder="Enter department_NO">
+                <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
